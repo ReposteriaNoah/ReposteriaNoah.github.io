@@ -1,0 +1,249 @@
+body{
+	background-image:url("../imagenes/fondo3.jpg");
+	color:#8C207A;
+	font-family:Adobe Casion Pro;
+	font-size:25px;
+}
+
+p{	
+	text-align:justify;
+	font-size:30px;
+	text-align:center;
+}
+	
+hr{ 
+	border:6px solid #8C207A;
+	border-radius:5px;
+	width:85%;
+}
+
+table,tr,td{
+	border: 2px solid;
+	border-spacing:0px;	 	   	  /*es para el espacio entre bordea*/
+	border-radius:5px;			 /*es para redondear los bordes de las lineas*/
+	text-align:center;	 		/*pocisio de los textos*/
+	font-size:20;			   /*tamaño de los textos en general*/
+	background-color:#F1AAEC; /*color del fondo*/
+}
+
+ul{
+	list-style-type:circle; 	 /*puntuar cosas en forma de lista*/
+    list-style-position:inside; /*posicion*/
+}
+
+ol{
+	list-style-type:lower-alpha; /*listados con letras*/
+	list-style-position:inside; /*posicion*/
+}
+
+.pie{ 					 /*para el pie de pagina*/
+	font-size:20px;  	/*tamaño del texto*/
+	text-align:center; /*posicion*/
+	font-weight:bold; /*obscuridad del texto*/
+	font-family:mifuente2;
+}
+
+.encabezado{ 			 /*para el encabezado de la pagina*/
+	font-family:mifuente;
+	font-size:70px;  	/*tamaño del texto*/
+	text-align:center; /*posicion*/
+	font-weight:bold; /*obscuridad del texto*/
+	color:; 		 /*en caso de querer cambiar el color de los textos*/
+}
+
+.img-marquee{ /*tamaño de las imagenes de la presentacion*/
+	height:400px;
+	width:400px;
+	border-radius:10%;
+	/*sustituir el <height> y <width> por el codigo <class="img-marquee">*/
+}
+.img-3leches{ /*tamaño de las imagenes de la presentacion*/
+	height:400px;
+	width:600px;
+	border-radius:10%;
+	/*sustituir el <height> y <width> por el codigo <class="img-marquee">*/
+}
+
+.img-producto{ /*tamaño de las imagenes de la presentacion*/
+	height:400px;
+	width:400px;
+	border-radius:5%;
+	/*sustituir el <height> y <width> por el codigo <class="img-producto">*/
+}
+
+.img-botones{ /*tamaño de las imagenes de la presentacion*/
+	height:120px;
+	width:200px;
+	border-radius:10%;
+	/*sustituir el <height> y <width> por el codigo <class="img-botones">*/
+}
+
+.img-logo{ /*tamaño de las imagenes de la presentacion*/
+	height:250px;
+	width:250px;
+	/*sustituir el <height> y <width> por el codigo <class="img-logo">*/
+}
+
+div#top{
+	padding:30px;
+	height:70px;
+	width:100%;
+	background-color:#F1AAEC;
+	background-image:linear-gradient(#F1AAEC,#F5CDE2);
+	/*background-image:linear-gradient(#F5CDE2);*/
+}
+
+div#piediv{
+	padding:30px; /**/
+	width:100%;
+	height:70px;
+	background-color:#F1AAEC;
+	background-image:linear-gradient(#F1AAEC,#F5CDE2);
+}
+
+div#principal{
+	padding:30px;
+	width:80%;
+	background-image:linear-gradient(#F1AAEC,#F5CDE2);
+	border:4px solid;
+	border-radius:12%;
+}
+
+div#imagenes-productos{
+	padding:10px;
+	width:40%;
+	background-image:linear-gradient(#F1AAEC,#8C207A);
+	border:5px solid;
+	border-radius:45%;
+}
+
+*{
+	margin:0px;
+}
+
+.caja{
+	height:600px;
+	width:400px;
+	background-image:linear-gradient(#F1AAEC,#F5CDE2);
+	border:4px solid;
+	border-radius:4%;
+	margin:5px;
+	color:#8C207A;
+	text-align:center;
+	display:inline-block;
+}
+
+.caja:hover{
+	box-shadow:0 0 30px purple;
+	transform:scale(1.2);
+}
+
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:25px;
+	color:#8C207A;
+	font-weight:bold;
+	font-family:mifuente;
+}
+
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box; /*hace que el pading y el border pasen a fomar parte del calculo de la caja y no de la suma*/
+}
+
+.contecarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden; /*hace que el navegador oculte todos los contenidos que salen del div*/
+	box-sizing:border-box;
+}
+
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+
+.itemcarrouseltarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+
+.itemcarrouselarrows{ /*hace que un elemento se coloque con respecto a su contenedor posicionado mas cercano*/
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+.itemcarrouselarrows>i:hover{
+	cursor:pointer;
+}
+
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.contecarrouselcontroller>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+
+.img-controller{
+	height:40px;
+	width:40px;
+	background-image:linear-gradient(#F1AAEC,#F5CDE2);
+}
+
+.itemcarrouselarrows> a > i{
+	color:white;
+}
+
+div#producto{
+	font-size:20px;  	/*tamaño del texto*/
+	text-align:center; /*posicion*/
+	font-weight:bold; /*obscuridad del texto*/
+	background-image:linear-gradient(#F1AAEC,#F5CDE2);
+}
+
+div#descripcion{
+	padding:30px;
+	width:30%;
+	background-image:linear-gradient(#F1AAEC,#F5CDE2);
+	border:5px solid;
+	border-radius:12%;
+}
+
+@font-face{
+	font-family:mifuente;
+	src:url("../fonts/Matteny Angels.otf");
+}
+
+@font-face{
+	font-family:mifuente2;
+	src:url("../fonts/Willow.otf");
+}
+
+     /*"hr","b" entre otras funciones ya no tienen atributos*/ 
+    /*cambiar los "<font>" por "<p>" y agregar "<p class="pie">", esto depende el nombre de la clase en este caso el nombre es pie*/
+   /*todo lo que diga <font-size> se tiene que eliminar y sustituir por <p class>*/

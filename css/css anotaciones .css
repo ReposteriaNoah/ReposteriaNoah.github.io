@@ -1,0 +1,49 @@
+/*NOTAS PARA LA CASA (COPIALO Y PEGALO EN EL ORIGINAL Y SUBELO AL DRIVE IMBECIL
+ BORDER: ponerlo en el codigo CSS y quitarlo del codigo HTML */
+
+ table,tr,td {
+ border: 3px solid 		   /* color de las lineas de las tablas*/;
+ border-spacing:0px;	  /*es para el espacio entre bordea*/;
+ text-align:center;	 	 /*pocisio de los textos*/;
+ font-size:				/*tamaño de los textos en general*/;
+ }
+ 
+ul{
+	list-style-type:circle; 	 /*puntuar cosas en forma de lista*/
+    list-style-position:inside; /*posicion*/
+}
+   
+ol{
+	list-style-type:lower-alpha; /*listados con letras*/
+	list-style-position:inside; /*posicion*/
+}
+
+.pie{ 					 /*para el pie de pagina*/
+	font-size:40px;  	/*tamaño del texto*/
+	text-align:center; /*posicion*/
+	font-weight:bold; /*obscuridad del texto*/
+}
+
+.encabezado{ /*para el encabezado de la pagina*/
+	font-size:35px;  	/*tamaño del texto*/
+	text-align:center; /*posicion*/
+	font-weight:bold; /*obscuridad del texto*/
+	color:; /*en caso de querer cambiar el color de los textos*/
+}
+
+.img-marquee{ /*tamaño de las imagenes de la presentacion*/
+	height:400px;
+	width:600px;
+	/*sustituir el <height> y <width> por el codigo <class="img.marquee">*/
+}
+
+.img-producto{ /*tamaño de las imagenes de la presentacion*/
+	height:200px;
+	width:150px;
+	border-radius:10%;
+	/*sustituir el <height> y <width> por el codigo <class="img.producto">*/
+}
+
+     /*"hr","b" entre otras funciones ya no tienen atributos*/ 
+    /*cambiar los "<fond>" por "<p>" y agregar "<p class="pie">", esto depende el nombre de la clase en este caso el nombre es pie*/
+   /*todo lo que diga <font-size> se tiene que eliminar y sustituir por <p class>*/
